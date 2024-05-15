@@ -2,7 +2,7 @@
 
 <p>this is a Backend Server For the Telegram Bot</p>
 
-<h1>Telegram bot for try once :- https://t.me/translationbylinesbot </h1>
+
 
 # First install dependencies using
 npm init
