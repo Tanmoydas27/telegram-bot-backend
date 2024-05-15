@@ -1,3 +1,4 @@
+const app = require('express')();
 require('dotenv').config();
 
 const telegrambot = require('node-telegram-bot-api');
@@ -67,4 +68,10 @@ bot.on('message', async (msg) => {
     }
 });
 
-console.log('Bot is running...');
+app.get('/', (req,res)=>{
+    res.send({success: true, message:"Fetch Successfull in Root"})
+})
+
+app.listen(3000, ()=>{
+    console.log("Running in port 3000")
+})
