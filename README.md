@@ -1,6 +1,6 @@
 
 
-# Telegram Bot for text Translation
+# Telegram Bot Backend for text Translation Using NodeJs
 
 ## Description
 
