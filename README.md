@@ -1,6 +1,6 @@
-# telegram-bot-backend
 
-# Telegram Bot for Line Translation
+
+# Telegram Bot for text Translation
 
 ## Description
 
